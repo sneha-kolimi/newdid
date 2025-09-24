@@ -2,26 +2,26 @@
   "@context": [
     "https://www.w3.org/ns/did/v1"
   ],
-  "id": "did:web:sneha-kolimi.github.io",
+  "id": "did:web:sneha-kolimi.github.io:newdid",
   "verificationMethod": [
     {
-      "id": "did:web:sneha-kolimi.github.io#key-1",
+      "id": "did:web:sneha-kolimi.github.io:new#key-1",
       "type": "Ed25519VerificationKey2018",
-      "controller": "did:web:sneha-kolimi.github.io",
-      "publicKeyBase58": "5qEmzaiukh3tSjVGmda3jouGNQRhLURUnTW9DpVFm1kN"
+      "controller": "did:web:sneha-kolimi.github.io:newdid",
+      "publicKeyBase58": "33ZYLQqZn4nJKiHbpFRSPekMSPQMVk2Rhqcpmgf6NWjo"
     }
   ],
   "authentication": [
-    "did:web:sneha-kolimi.github.io#key-1"
+    "did:web:sneha-kolimi.github.io:newdid#key-1"
   ],
   "assertionMethod": [
-    "did:web:sneha-kolimi.github.io#key-1"
+    "did:web:sneha-kolimi.github.io:newdid#key-1"
   ],
   "service": [
     {
-      "id": "did:web:sneha-kolimi.github.io#agent",
+      "id": "did:web:sneha-kolimi.github.io:newdid#agent",
       "type": "agent",
-      "serviceEndpoint": "https://sneha-kolimi.github.io/endpoint"
+      "serviceEndpoint": "https://sneha-kolimi.github.io/newdid/endpoint"
     }
   ]
 }
