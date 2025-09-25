@@ -5,7 +5,7 @@
   "id": "did:web:sneha-kolimi.github.io:newdid",
   "verificationMethod": [
     {
-      "id": "did:web:sneha-kolimi.github.io:new#key-1",
+      "id": "did:web:sneha-kolimi.github.io:newdid#key-1",
       "type": "Ed25519VerificationKey2018",
       "controller": "did:web:sneha-kolimi.github.io:newdid",
       "publicKeyBase58": "33ZYLQqZn4nJKiHbpFRSPekMSPQMVk2Rhqcpmgf6NWjo"
